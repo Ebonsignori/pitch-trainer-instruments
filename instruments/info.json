@@ -1,0 +1,24 @@
+{
+    "name": "pitch-trainer-instruments",
+    "instruments": {
+        "Emotional Piano": "emotional_piano",
+        "Great And Soft Piano": "great_and_soft_piano",
+        "Hard And Tough Piano": "hard_and_tough_piano",
+        "Hard Piano": "hard_piano",
+        "Harp": "harp",
+        "Harpsicord": "harpsicord",
+        "Loud And Proud Piano": "loud_and_proud_piano",
+        "Music Box": "music_box",
+        "New Piano": "new_piano",
+        "Orchestra Piano": "orchestra_piano",
+        "Rhodes Piano": "rhodes_piano",
+        "Soft Piano": "soft_piano",
+        "Soft Piano Copy": "soft_piano copy",
+        "Spanish Classic Guitar": "spanish_classic_guitar",
+        "Steinway Grand Piano": "steinway_grand_piano",
+        "Vintage Upright Piano": "vintage_upright_piano",
+        "Vintage Upright Soft Piano": "vintage_upright_soft_piano"
+    },
+    "username": "ebonsignori",
+    "repo": "pitch-trainer-instruments"
+}

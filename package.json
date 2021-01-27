@@ -1,0 +1,23 @@
+{
+  "name": "pitch-trainer-instruments",
+  "version": "1.0.0",
+  "description": "Instrument samples for pitch-trainer app",
+  "main": "README.md",
+  "scripts": {
+    "generate-repo-info": "node ./generate-repo-info.js",
+    "lint": "eslint utils/** generate-instrument-info.js generate-repo-info.js"
+  },
+  "author": "Evan Bonsignori",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "ignore": "^5.1.8",
+    "parse-gitignore": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-promise": "^4.2.1"
+  }
+}

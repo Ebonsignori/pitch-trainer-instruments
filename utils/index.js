@@ -34,6 +34,8 @@ async function generateInstrumentInfo (instrumentDirPath) {
       const notePart = note.toLowerCase()
       if (fileName.includes('s')) {
         return fileNamePart === notePart.replace('#', 's')
+      } else if (fileName.includes('v4')) {
+        return fileNamePart.replace('v4', '') === notePart
       }
       return fileNamePart === notePart
     })

@@ -2,6 +2,8 @@
 
 A collection of organized instrument samples with index files (`info.json`) mapping notes to sample files.
 
+Used by the [Pitch-Trainer-Midi](https://github.com/Ebonsignori/Pitch-Trainer-Midi) app for training relative pitch with different instruments.
+
 ## Usage
 
 Each instrument directory contains an `info.json` with available note mappings, the file extension of each note, and a display name of the samples. 

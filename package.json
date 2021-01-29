@@ -4,6 +4,8 @@
   "description": "Instrument samples for pitch-trainer app",
   "main": "README.md",
   "scripts": {
+    "update-all": "yes | npm run generate-all-infos && npm run generate-repo-info",
+    "generate-all-infos": "node ./generate-all-infos.js",
     "generate-repo-info": "node ./generate-repo-info.js",
     "lint": "eslint utils/** generate-instrument-info.js generate-repo-info.js"
   },

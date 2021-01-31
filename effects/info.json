@@ -1,0 +1,13 @@
+{
+  "name": "pitch-trainer-sound-effects",
+  "sounds": {
+    "Success 1": "success_1.mp3",
+    "Success 2": "success_2.mp3",
+    "Success 3": "success_3.mp3",
+    "Fail 1": "fail_1.mp3",
+    "Fail 2": "fail_2.mp3",
+    "Fail 3": "fail_3.mp3"
+  },
+  "username": "ebonsignori",
+  "repo": "pitch-trainer-instruments"
+}

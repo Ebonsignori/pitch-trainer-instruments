@@ -13,7 +13,7 @@ async function generateInstrumentInfo (instrumentDirPath) {
   const INFO_JSON_PATH = path.join(INSTRUMENT_DIRECTORY, 'info.json')
 
   if (!fs.existsSync(INSTRUMENT_DIRECTORY)) {
-    console.log(`Directory ${instrumentDirPath} does not exist relative to this script.`)
+    console.log(`Directory ${instrumentDirPath} does not exist in instruments directory.`)
     exit()
   }
   console.log(`${instrumentDirPath} found.`)

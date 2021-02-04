@@ -1,6 +1,26 @@
 const fs = require('fs')
 const path = require('path')
 const readline = require('readline')
+const parseGitIgnore = require('parse-gitignore')
+const Ignore = require('ignore')
+
+const gitIgnored = parseGitIgnore(fs.readFileSync(path.join(__dirname, '..', '.gitignore')))
+const ignore = Ignore().add(gitIgnored)
+
+const ignoreList = [
+  'utils',
+  '.git',
+]
+
+function shouldIgnore (fileName) {
+  if (ignoreList.includes(fileName)) {
+    return true
+  }
+  if (ignore.ignores(fileName)) {
+    return true
+  }
+  return false
+}
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -167,4 +187,5 @@ module.exports = {
   isDirectory,
   toTitleCase,
   getNoteOpts,
+  shouldIgnore,
 }

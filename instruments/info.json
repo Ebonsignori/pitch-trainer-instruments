@@ -1,6 +1,7 @@
 {
     "name": "pitch-trainer-instruments",
     "instruments": {
+        "Acoustic Guitar": "acoustic_guitar",
         "Emotional Piano": "emotional_piano",
         "Great And Soft Piano": "great_and_soft_piano",
         "Hard And Tough Piano": "hard_and_tough_piano",
